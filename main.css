@@ -1,0 +1,9 @@
+.Home__Preface {
+  background: conic-gradient(
+    from 180deg at 50% 50%,
+    #3e5c2a -232.22deg,
+    #023819 127.76deg,
+    #3e5c2a 127.78deg,
+    #023819 487.76deg
+  );
+}

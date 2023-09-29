@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./main.css" />
+
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: '#da373d',
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+  <body>
+    <nav class="flex justify-between p-6 text-[#efb443]">
+      <h1 class="">Logo</h1>
+      <div class="flex gap-4">
+        <p>Products</p>
+        <p>About</p>
+        <p>Blog</p>
+      </div>
+    </nav>
+
+    <div class="Home__Preface h-full text-white">
+      <div class="py-36 flex flex-col justify-center items-center">
+        <div class="max-w-4xl">
+          <h3 class="text-center text-lg md:text-3xl font-bold">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Felis ipsum
+            eu sed ut lacinia elementum mauri
+          </h3>
+        </div>
+        <p class="pt-6 max-w-3xl text-center">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Felis ipsum
+          eu sed ut lacinia elementum mauris. Sed semper mollis elementum
+          sagittis massa sagittis. Nulla pellentesque tellus, massa semper. Sed
+          gravida blandit fermentum a id nibh egestas.
+        </p>
+        <div class="flex justify-between gap-6 mt-10">
+          <button
+            class="inline-flex bg-[#efb443] text-white justify-center items-center gap-1 px-4 py-3 rounded-md"
+          >
+            fermentum a
+          </button>
+          <button
+            class="inline-flex border border-[#efb443] justify-center gap-1 px-3 py-3 rounded-md"
+          >
+            fermentum a
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <div class="py-8 flex flex-col items-center">
+        <h3
+          class="text-center text[39px] md:text-[76px] font-bold text-[#3e5c2a]"
+        >
+          <span class="">What we</span> <span class="">Offer</span>
+        </h3>
+        <p class="text-center text-[#507736]">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        </p>
+        <div class="flex flex-wrap justify-center gap-8 mt-20 mb-8">
+          <div class="p-4 w-72 shadow-md rounded-md bg-white">
+            <img
+              src="https://images.unsplash.com/photo-1606728035253-49e8a23146de?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8OXx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=60"
+              alt="chicken"
+              class="w-28 h-20"
+            />
+            <p class="text-[39px] font-bold my-3 text-[#3e5c2a]">Chicken</p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Felis
+              ipsum eu sed ut lacinia elementum mauris. Sed semper ddfdfdf
+            </p>
+          </div>
+          <div class="p-4 w-72 shadow-md rounded-md bg-white">
+            <img
+              src="https://images.unsplash.com/photo-1606728035253-49e8a23146de?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8OXx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=60"
+              alt="chicken"
+              class="w-28 h-20"
+            />
+            <p class="text-[39px] font-bold my-3 text-[#3e5c2a]">Fish</p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Felis
+              ipsum eu sed ut lacinia elementum mauris. Sed semper ddfdfdf
+            </p>
+          </div>
+        </div>
+        <button
+          class="inline-flex border border-[#efb443] text-[#efb443] items-center gap-1 px-3 py-3 rounded-md"
+        >
+          Buy Now
+        </button>
+        <div class="flex flex-wrap justify-center gap-12 my-20">
+          <div class="w-52">
+            <h3 class="text-[25px] text-[#3e5c2a] font-bold mb-4">
+              <span class="">About</span>
+              <span class="">consectetur adipiscing elit.</span>
+            </h3>
+            <button
+              class="inline-flex border border-[#efb443] text-[#efb443] items-center gap-1 px-3 py-3 rounded-md"
+            >
+              Get In Touch
+            </button>
+          </div>
+          <div class="w-64">
+            <div
+              class="border-8 border-[#efb443] w-full h-full"
+              style="border-width: 12px"
+            >
+              <img
+                src="https://images.unsplash.com/photo-1606728035253-49e8a23146de?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8OXx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=60"
+                alt="chicken"
+                class=""
+              />
+            </div>
+          </div>
+          <p class="w-60">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Felis ipsum
+            eu sed ut lacinia elementum mauris. Sed semper mollis elementum
+            sagittis massa sagittis. Nulla pellentesque tellus, massa semper.
+            Sed gravida blandit fermentum a id nibh egestas.
+          </p>
+        </div>
+        <div
+          class="w-full p-8 flex flex-col items-center"
+          style="border-radius: 60px"
+        >
+          <h3
+            class="text-[25px] text-[#3e5c2a] md:text-[39px] font-bold text-center"
+          >
+            Our Products
+          </h3>
+          <p class="text-center mb-16">Lorem ipsum dolor sit amet</p>
+        </div>
+        <div class="w-full -mt-16 mb-28">
+          <div class="overflow-x-auto p-4">
+            <div class="min-w-full justify-center gap-4">
+              <div class="p-4 shadow-md">
+                <div class="w-64 h-40 mb-4">
+                  <img
+                    class="w-full h-full"
+                    alt="img"
+                    src="https://images.unsplash.com/photo-1606728035253-49e8a23146de?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8OXx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=60"
+                  />
+                </div>
+                <p class="text-5xl text-[#3e5c2a] font-bold">Live Chicken</p>
+                <p class="text-2xl font-bold">Chicken</p>
+                <div class="flex justify-between items-center">
+                  <p>N10,000</p>
+                  <button
+                    class="inline-flex bg-[#3e5c2a] text-white justify-center items-center gap-1 text-lg px-4 py-3 rounded-md"
+                  >
+                    Buy Now
+                  </button>
+                </div>
+              </div>
+              <div class="p-4 shadow-md">
+                <div class="w-64 h-40 mb-4">
+                  <img
+                    class="w-full h-full"
+                    alt="img"
+                    src="https://images.unsplash.com/photo-1606728035253-49e8a23146de?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8OXx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=60"
+                  />
+                </div>
+                <p class="text-5xl text-[#3e5c2a] font-bold">Cat Fish</p>
+                <p class="text-2xl font-bold">Fish</p>
+                <div class="flex justify-between items-center">
+                  <p>N10,000</p>
+                  <button
+                    class="inline-flex bg-[#3e5c2a] text-white justify-center items-center gap-1 text-lg px-4 py-3 rounded-md"
+                  >
+                    Buy Now
+                  </button>
+                </div>
+              </div>
+              <div class="p-4 shadow-md">
+                <div class="w-64 h-40">
+                  <img
+                    class="w-full h-full"
+                    alt="img"
+                    src="https://images.unsplash.com/photo-1606728035253-49e8a23146de?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8OXx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=60"
+                  />
+                </div>
+                <p class="text-5xl text-[#3e5c2a] font-bold">Dressed Chicken</p>
+                <p class="text-2xl font-bold">Chicken</p>
+                <div class="flex justify-between items-center">
+                  <p>N10,000</p>
+                  <button
+                    class="inline-flex bg-[#3e5c2a] text-white justify-center items-center gap-1 text-lg px-4 py-3 rounded-md"
+                  >
+                    Buy Now
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="flex justify-center items-center">
+            <button
+              class="inline-flex border border-[#efb443] text-[#efb443] justify-between items-center gap-1 px-4 py-3 rounded-md"
+            >
+              View All Products
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="bg-[#e9f0e4] rounded-md mb-28">
+      <div class="flex flex-col items-center p-4">
+        <h2 class="text-[39px] md:-[text-61px] font-bold text-[#3e5c2a] mb-6">
+          Few Steps
+        </h2>
+        <div class="grid md:grid-cols-3 gap-6">
+          <div class="flex flex-col items-center" style="max-width: 150px">
+            <div
+              class="border rounded-lg p-4 flex justify-center items-center text-[#efb443]"
+            >
+              UserPlus
+            </div>
+            <h4 class="text-[25px] text-[#3e5c2a] font-bold text-center">
+              Register with us
+            </h4>
+            <p class="text-sm text-center">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat
+              aliquet nunc fringilla ornare.
+            </p>
+          </div>
+          <div class="" style="max-width: 150px">
+            <div class="">UserPlus</div>
+            <h4 class="">Register with us</h4>
+            <p class="">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat
+              aliquet nunc fringilla ornare.
+            </p>
+          </div>
+          <div class="" style="max-width: 150px">
+            <div class="">UserPlus</div>
+            <h4 class="">Register with us</h4>
+            <p class="">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat
+              aliquet nunc fringilla ornare.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="flex flex-col items-center p-4">
+      <h4 class="">Customer lorem ipsums</h4>
+      <p class="">Checkout some review from our amazing clients</p>
+
+      <div class="bg-[#507736] w-full p-20 mb-28" style="border-radius: 30px">
+        <div class="flex flex-col items-center justify-center">
+          <div style="max-width: 350">
+            <h3 class="">Stay in touch with us.</h3>
+            <h5 class="">
+              More than 2,000 customer trust us to deliver the product.
+            </h5>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="bg-[#3e5c2a] text-white px-4 p-8">
+      <div class="flex justify-between">
+        <p class="">© lorem ipsum dama | All Rights Reserved 2023</p>
+        <div class="">Terms and Condition</div>
+      </div>
+    </footer>
+  </body>
+</html>
